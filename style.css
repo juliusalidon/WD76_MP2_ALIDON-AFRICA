@@ -1,0 +1,64 @@
+body{
+    background-color: #ff5353;
+    
+}
+.logo-div{
+     text-align: center; /* Center the content horizontally */
+/*     margin-top: 20vh; /* Adjust as needed for spacing */ 
+}
+#logo{
+    border: 0;
+    padding: 0;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 20px; /* Add spacing between logo and navbar */
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar {
+    text-align: center;
+/*     background-color: #333; */
+    margin-top: 20px; /* Adjust the margin to add space between logo and navbar */
+}
+
+.navbar ul {
+    font-family: sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 80px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(247, 243, 221);
+    font-weight: bolder;
+    font-size: 18px;
+}
+.slider {
+    
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Adjust margins for spacing */
+    overflow: hidden;
+    text-align: center;
+    
+  }
+  
+  .slide {
+    width: 100%;
+    display: none;
+    
+  }
+  .icons{
+    text-align: center;
+    font-size: 30px;
+}
+.socials{
+    margin: 0 50px;
+    color: antiquewhite;
+}
