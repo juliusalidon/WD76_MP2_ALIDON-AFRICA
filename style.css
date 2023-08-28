@@ -1,11 +1,84 @@
 body{
     background-color: #ff5353;
-    
 }
 .logo-div{
      text-align: center; /* Center the content horizontally */
 /*     margin-top: 20vh; /* Adjust as needed for spacing */ 
 }
+/* ############### */
+.container {
+    color: #fff;
+    position: relative;
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* text-align: center; */
+  }
+  
+  .image {
+    display: block;
+    width: 500px;
+    height: 600px;
+    /* text-align: center; */
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f4b2a7;
+    border-radius: 30px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 0.95;
+  }
+  
+  .text {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+   /* text-align: center; */
+    top: 30%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
+  .itempic {
+    height: 160px;
+    width: 140px;
+  }
+  .itempic1 {
+    height: 120px;
+    width: 100px;
+  }
+  .item{
+    display: inline-block;
+    width: 100%;
+    left: 10%;
+    
+  }
+  #item1{
+    margin-left: 40px;
+    text-align: center;
+    float: left;
+  }
+  #item2{
+    margin-right: 40px;
+    text-align: center;
+    float: right;
+  } 
+/* ############### */
 #logo{
     border: 0;
     padding: 0;
@@ -40,6 +113,7 @@ body{
     font-weight: bolder;
     font-size: 18px;
 }
+
 .slider {
     
     width: 80%; /* Adjust the width as needed */
